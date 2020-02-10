@@ -11,6 +11,7 @@ class School
     if !(SCHOOLS.include?(@school))
       SCHOOLS << @school
     end
+    end
 
     def roster=(roster)
       @roster = roster
