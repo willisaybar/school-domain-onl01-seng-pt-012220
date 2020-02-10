@@ -3,12 +3,12 @@ class School
   # attr_accessor :school
   # attr_reader :roster
 
+  SCHOOLS = []
+
   def initialize(school)
     @school = school
-    end
-
-    def school
-      @school
+    if !(SCHOOLS.include?(@school))
+      SCHOOLS << @school
     end
 
     ROSTER = []
