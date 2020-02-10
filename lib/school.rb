@@ -1,7 +1,7 @@
 class School
 
   attr_accessor :school
-  attr_reader :student
+  attr_reader :roster
 
   def initialize(school)
     @school = school
@@ -13,8 +13,8 @@ class School
 
     ROSTER = []
 
-    def student=(student)
-      @student = student 
+    def roster=(roster)
+      @roster = roster
     end
 
 end
