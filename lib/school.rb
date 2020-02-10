@@ -10,4 +10,4 @@ class School
   end
 
 
-end 
+end
