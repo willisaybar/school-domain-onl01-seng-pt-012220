@@ -1,7 +1,12 @@
 class School
 
-  def initialize(name)
-    @name = name
+  SCHOOLS = []
+
+  def initialize(school)
+    @school = school
+    if !(SCHOOLS.include?(@school))
+      SCHOOLS << @school
+    end
   end
 
 
